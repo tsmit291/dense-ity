@@ -5,6 +5,11 @@ html, body {
   padding: 0;
 }
 
+#google-visualization-geomap {
+  height: 90%;
+  width: 100%:
+}
+
 #visualization{
   height: 90%;
   width: 100%;
