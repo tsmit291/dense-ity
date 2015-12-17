@@ -4,13 +4,17 @@ html, body {
   margin: 2.5%;
   padding: 0;
 }
-
-#google-visualization-geomap {
+/*
+#map {
   height: 90%;
-  width: 100%:
-}
+  width: 70%;
+}*/
 
 #visualization{
+  margin:1em;
+}
+
+#regions_div{
   height: 90%;
-  width: 100%;
+  width: 70%;
 }
