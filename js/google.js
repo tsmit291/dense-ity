@@ -225,7 +225,6 @@ google.load('visualization', '1.1', {packages:['geochart']});
          ["Uruguay", 3337000],
          ["United States", 278357000],
          ["Uzbekistan", 24318000],
-        //  ["Holy See (Vatican City State)", 1000],
          ["Saint Vincent and the Grenadines", 114000],
          ["Venezuela", 24170000],
          ["British Virgin Islands", 21000],
@@ -243,10 +242,9 @@ google.load('visualization', '1.1', {packages:['geochart']});
 
        var options = {
           displayMode: 'regions',
-          colorAxis: {colors: ['#f5f5f5','#267114']},
-          legend: 'Population',
-          width: 700,
-          height: 525
+          colorAxis: {colors: ['#FFEAF1','#FF0000','#3E000C']},
+          keepAspectRatio: true,
+          height: 580
        };
 
        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
