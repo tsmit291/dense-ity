@@ -250,5 +250,22 @@ google.load('visualization', '1.1', {packages:['geochart']});
        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
 
        chart.draw(data, options);
-     }
-   });
+
+       $(document).one('click', function(){
+         var selection = chart.getSelection();
+         if (selection[0] !== "undefined"){
+           var countryName = data.getValue(selection[0].row,0);
+           var populationNum = data.getValue(selection[0].row,1)
+         };
+            $('.textBox').append(countryName + ' (Population) :');
+            $('.textBox').append(populationNum);
+
+          var area = populationNum * 0.9;
+          $('.populationLandCalc').append('</br>' + 'Total square meters to hold the population of ' + countryName + ': ' + area);
+
+          var volume = populationNum * 0.165;
+          $('.populationBuildingCalc').append('</br>' + 'Total cubic square meters to hold the population of ' + countryName + ': ' + volume);
+
+       })
+ }
+ });

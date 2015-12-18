@@ -9,10 +9,6 @@ html, body {
 .projectTitle {
   top: 50%;
   left: 50%;
-
-}
-#visualization{
-  /*margin:1%;*/
 }
 
 #regions_div{
@@ -20,26 +16,82 @@ html, body {
   width: 80%;
 }
 
-.sectionLeft{
-  height: 100%;
-  padding: 5%, 5%, 0%, 8%;
-  float: left;
+.sectionOne {
+  background-color: white;
+  height: 65%;
+  width: 60%;
 }
 
-/*.sectionRight{
-  height: 100%;
-  width: 20%;
-  border: 1px solid #d8dad8;
-  border-radius: 2px;
-  float:left;
-  padding-left: 5%;
-}*/
-
 .textBox{
+  height: 15%;
+  width: 100%;
+  margin-top: 2%;
+}
+
+header {
+  width: 15%;
+  color: black;
+  margin: 0% 0% 0% 2%;
+  font-size: 10px;
+  align: left;
+}
+
+#resetButton {
+  margin: 1% 0% 0% 2%;
+  font-family: Neou-thin;
+  font-size: 10px;
+  height: 2%;
+}
+
+.popData{
   height: 65%;
   width: 100%;
   margin-top: 2%;
+}
+
+.calculations {
+  height: 65%;
+  width: 100%;
+  margin: 1%;
+}
+
+.populationLand {
+  height: 60%;
+  width: 40%;
+  background-color: pink;
+  margin-right: 2%;
   float: left;
+}
+
+.populationLand p {
+  text-align: justify;
+  margin: 1%;
+}
+
+.populationBuilding {
+  height: 60%;
+  width: 40%;
+  background-color: pink;
+  margin-right: 2%;
+  display: inline-block;
+}
+
+.populationBuilding p {
+  text-align: justify;
+  margin: 1%;
+}
+
+.populationStories {
+  height: 60%;
+  width: 40%;
+  background-color: pink;
+  margin-right: 2%;
+  display: inline-block;
+}
+
+.populationStories p {
+  text-align: justify;
+  margin: 1%;
 }
 
 /*footer{

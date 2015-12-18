@@ -6,17 +6,22 @@
     <link rel="stylesheet" href="css/app.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-  <header class="densityHead"</header>
+    <header>Hover over a country for population then click a country to perform calculations.</header>
+    <button type="button" id="resetButton" name="button">Reset Map</button>
   <div class="container">
       <div id="visualization"></div>
       <div id="regions_div"></div>
-    <section class="sectionRight">
-      <div id=""
-    </section>
   </div>
-    <section class="textBox">
-      <h5>Directions: Hover over a country for population | Click a country to perform calculations.</h5>
-    </section>
+  <section class="sectionOne">
+      <div class="textBox"></div>
+      <div class="calculations">
+        <div class="populationLand"><p>The average human is 165cm (5’5”) tall, and 62kg (apx. 137lbs). With this information, we could fit approximately 9 humans in 1 square meter.</p></div>
+        <div class="populationLandCalc"></div>
+        <div class="populationBuilding"><p>The average person can comfortably stand in .165 cubic meters. With this information, we could fit approximately 6 humans in 1 cubic square meter.</p></div>
+        <div class="populationBuildingCalc"></div>
+        <div class="populationStories"><p>Assuming the building housing our population has a base the size of the largest building in the world,</p></div>
+      </div>
+  </section>
   <!-- <footer><p>Taylor Smith | www.taylorjeveryday.com</p></footer> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
