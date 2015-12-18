@@ -262,13 +262,19 @@ google.load('visualization', '1.1', {packages:['geochart']});
 
           var area = populationNum * 0.9;
           var centralParkarea = (area / 8831859).toFixed();
+
+          for (var i = 0; i < 9; i++) {
+            $('.man_centerDiv').prepend('<img id="man_center" src="images/man_center.jpg" />');
+          }
           $('.populationLandCalc').append('<p class="areaclass">Total square meters to hold the population of ' + countryName + ': ' + area + '</p>' + '<p>'+ 'Central Park is 3.41 kilometers squared, or 8,831,859 meters squared. This means that it would take ' + centralParkarea + ' Central Parks to fit our population.') +'</p>';
 
           var volume = populationNum * 0.165;
           $('.populationBuildingCalc').append('<p class="volclass">Total cubic square meters to hold the population of ' + countryName + ': ' + volume)+ '</p>';
 
           var stories = (populationNum / 47890).toFixed();
-          $('.populationStoriesCalc').append('<p class="storiesclass">Total number of stories needed to house the population of ' + countryName + ': ' + stories)+'</p>';
+          var totalHeight = (stories * 3.6576).toFixed();
+          var totalHeightFt = (totalHeight * 3.28084).toFixed();
+          $('.populationStoriesCalc').append('<p class="storiesclass">Total number of stories needed to house the population of ' + countryName + ': ' + stories +'</p>'+'<p>'+ 'If each story in the building housing our population is 12 feet in height, our building would be ' + totalHeight + ' meters in height.' + ' That is ' + totalHeightFt + ' feet tall!')+'</p>';
 
        })
  }

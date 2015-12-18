@@ -6,6 +6,14 @@ html, body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:link {
+text-decoration-color: #ff1112;
+};
+
 .projectTitle {
   top: 50%;
   left: 50%;
@@ -40,6 +48,10 @@ header {
   align: left;
 }
 
+header p {
+  font-size: 10px;
+}
+
 #resetButton {
   margin: 1% 0% 1% 2%;
   font-family: Quicksand-Light;
@@ -61,13 +73,6 @@ header {
   float: left;
   border-radius: 3px;
   overflow-y: auto;
-}
-
-.man{
-  padding: 2%;
-  width: 15%;
-  height: 22%;
-  align-content: center;
 }
 
 .populationLand p {
@@ -132,7 +137,25 @@ header {
   margin: 0 2% 0 2%;
 }
 
-/*footer{
-  position: fixed;
+.centralParkarea {
+  color: #ff1112;
+}
+
+.area {
+  color: #ff1112;
+}
+
+.volume {
+  color: #ff1112;
+}
+
+.stories {
+  color: #ff1112;
+}
+
+footer{
   bottom: 0;
-}*/
+  height: 15%;
+  width: 100%;
+  text-align: center;
+}
