@@ -257,14 +257,14 @@ google.load('visualization', '1.1', {packages:['geochart']});
            var countryName = data.getValue(selection[0].row,0);
            var populationNum = data.getValue(selection[0].row,1)
          };
-            $('.textBox').append(countryName + ' (Population) :');
+            $('.textBox').append(countryName + ' (Population) : ');
             $('.textBox').append(populationNum);
 
           var area = populationNum * 0.9;
-          $('.populationLandCalc').append('</br>' + 'Total square meters to hold the population of ' + countryName + ': ' + area);
+          $('.populationLandCalc').append('<p class="areaclass">Total square meters to hold the population of ' + countryName + ': ' + area)+ '</p>';
 
           var volume = populationNum * 0.165;
-          $('.populationBuildingCalc').append('</br>' + 'Total cubic square meters to hold the population of ' + countryName + ': ' + volume);
+          $('.populationBuildingCalc').append('<p class="volclass">Total cubic square meters to hold the population of ' + countryName + ': ' + volume)+ '</p>';
 
        })
  }

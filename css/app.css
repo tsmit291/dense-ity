@@ -1,5 +1,5 @@
 html, body {
-  font-family: Neou-thin;
+  font-family: Quicksand-Light;
   height: 90%;
   width: 100%;
   margin: 2%;
@@ -14,33 +14,36 @@ html, body {
 #regions_div{
   height: 90%;
   width: 80%;
+  margin: 0 auto;
 }
 
 .sectionOne {
   background-color: white;
   height: 65%;
-  width: 60%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .textBox{
   height: 15%;
   width: 100%;
-  margin-top: 2%;
+  margin-top: 2% 2% 2% 2%;
   font-weight: bold;
+  font-size: 14px;
 }
 
 header {
   width: 15%;
   color: black;
   margin: 0% 0% 0% 2%;
-  font-size: 10px;
+  font-size: 14px;
   align: left;
 }
 
 #resetButton {
-  margin: 1% 0% 0% 2%;
-  font-family: Neou-thin;
-  font-size: 10px;
+  margin: 1% 0% 1% 2%;
+  font-family: Quicksand-Light;
+  font-size: 12px;
   height: 2%;
 }
 
@@ -50,58 +53,76 @@ header {
   margin-top: 2%;
 }
 
-/*.calculations {
-  height: 65%;
-  width: 100%;
-  margin: 1%;
-}*/
-
 .populationLand {
   height: 60%;
-  width: 38%;
-  background-color: pink;
-  border-radius: 3px;
+  width: 30%;
+  border: 1px solid #ff605d;
   margin-right: 2%;
   float: left;
+  border-radius: 3px;
+  overflow-y: auto;
+}
+
+.man{
+  padding: 2%;
+  width: 15%;
+  height: 22%;
+  align-content: center;
 }
 
 .populationLand p {
-  text-align: justify;
+  text-align: left;
   padding: 5%;
   font-size: 14px;
-  margin: 1%;
+  margin: 2%;
 }
 
 .populationBuilding {
   height: 60%;
-  width: 38%;
-  background-color: pink;
+  width: 30%;
+  border: 1px solid #ff605d;
   margin-right: 2%;
   display: inline-block;
   border-radius: 3px;
+  overflow-y: auto;
 }
 
 .populationBuilding p {
-  text-align: justify;
+  text-align: left;
   padding: 5%;
   font-size: 14px;
-  margin: 1%;
+  margin: 2%;
 }
 
 .populationStories {
   height: 60%;
-  width: 38%;
-  background-color: pink;
-  margin-right: 2%;
+  width: 30%;
+  border: 1px solid #ff605d;
+  /*margin-right: 2%;*/
   display: inline-block;
   border-radius: 3px;
+  overflow-y: scroll;
 }
 
 .populationStories p {
-  text-align: justify;
+  text-align: left;
   padding: 5%;
   font-size: 14px;
-  margin: 1%;
+  margin: 2%;
+}
+
+.areaclass {
+  text-align: left;
+  padding: 5%;
+  font-size: 14px;
+  margin: 0 2% 0 2%;
+}
+
+.volclass{
+  text-align: left;
+  padding: 5%;
+  font-size: 14px;
+  margin: 0 2% 0 2%;
 }
 
 /*footer{
