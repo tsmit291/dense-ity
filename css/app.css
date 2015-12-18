@@ -19,10 +19,24 @@ text-decoration-color: #ff1112;
   left: 50%;
 }
 
+header {
+  width: 15%;
+  color: black;
+  margin: 0% 0% 0% 2%;
+  font-size: 14px;
+  align: left;
+  z-index: 1;
+  position: absolute;
+}
+
 #regions_div{
   height: 90%;
-  width: 80%;
-  margin: 0 auto;
+  width: 88%;
+  /*margin: 0 auto;*/
+  position: absolute;
+  top: 10%;
+  left: 12%;
+  z-index: 0;
 }
 
 .sectionOne {
@@ -30,6 +44,8 @@ text-decoration-color: #ff1112;
   height: 65%;
   width: 100%;
   margin: 0 auto;
+  position: absolute;
+  bottom: -60%;
 }
 
 .textBox{
@@ -38,14 +54,6 @@ text-decoration-color: #ff1112;
   margin-top: 2% 2% 2% 2%;
   font-weight: bold;
   font-size: 14px;
-}
-
-header {
-  width: 15%;
-  color: black;
-  margin: 0% 0% 0% 2%;
-  font-size: 14px;
-  align: left;
 }
 
 header p {
@@ -154,8 +162,9 @@ header p {
 }
 
 footer{
-  bottom: 0;
+  bottom: -70%;
   height: 15%;
   width: 100%;
   text-align: center;
+  position: absolute;
 }
