@@ -26,6 +26,7 @@ html, body {
   height: 15%;
   width: 100%;
   margin-top: 2%;
+  font-weight: bold;
 }
 
 header {
@@ -49,48 +50,57 @@ header {
   margin-top: 2%;
 }
 
-.calculations {
+/*.calculations {
   height: 65%;
   width: 100%;
   margin: 1%;
-}
+}*/
 
 .populationLand {
   height: 60%;
-  width: 40%;
+  width: 38%;
   background-color: pink;
+  border-radius: 3px;
   margin-right: 2%;
   float: left;
 }
 
 .populationLand p {
   text-align: justify;
+  padding: 5%;
+  font-size: 14px;
   margin: 1%;
 }
 
 .populationBuilding {
   height: 60%;
-  width: 40%;
+  width: 38%;
   background-color: pink;
   margin-right: 2%;
   display: inline-block;
+  border-radius: 3px;
 }
 
 .populationBuilding p {
   text-align: justify;
+  padding: 5%;
+  font-size: 14px;
   margin: 1%;
 }
 
 .populationStories {
   height: 60%;
-  width: 40%;
+  width: 38%;
   background-color: pink;
   margin-right: 2%;
   display: inline-block;
+  border-radius: 3px;
 }
 
 .populationStories p {
   text-align: justify;
+  padding: 5%;
+  font-size: 14px;
   margin: 1%;
 }
 
