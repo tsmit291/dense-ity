@@ -244,7 +244,7 @@ google.load('visualization', '1.1', {packages:['geochart']});
           displayMode: 'regions',
           colorAxis: {colors: ['#FFEAF1','#FF0000','#3E000C']},
           keepAspectRatio: true,
-          height: 580
+          height: 580,
        };
 
        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
@@ -275,7 +275,6 @@ google.load('visualization', '1.1', {packages:['geochart']});
           var totalHeight = (stories * 3.6576).toFixed();
           var totalHeightFt = (totalHeight * 3.28084).toFixed();
           $('.populationStoriesCalc').append('<p class="storiesclass">Total number of stories needed to house the population of ' + countryName + ': ' + stories +'</p>'+'<p>'+ 'If each story in the building housing our population is 12 feet in height, our building would be ' + totalHeight + ' meters in height.' + ' That is ' + totalHeightFt + ' feet tall!')+'</p>';
-
        })
  }
  });
