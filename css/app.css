@@ -77,6 +77,13 @@ header {
   margin: 2%;
 }
 
+.areaclass{
+  text-align: left;
+  paddidng: 5%;
+  font-size: 14px;
+  margin: 2%;
+}
+
 .populationBuilding {
   height: 60%;
   width: 30%;
