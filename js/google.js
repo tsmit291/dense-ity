@@ -2,6 +2,7 @@ $(document).ready(function(){
 google.load('visualization', '1.1', {packages:['geochart']});
      google.setOnLoadCallback(drawRegionsMap);
 
+
      function drawRegionsMap() {
 
        var data = google.visualization.arrayToDataTable([
