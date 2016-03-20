@@ -1,0 +1,9 @@
+{
+  "firebase": "dense-ity",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
