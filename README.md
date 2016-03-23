@@ -1,4 +1,4 @@
-https://dense-ity.firebaseio.com/
+https://dense-ity.firebaseapp.com/
 
 Dense-ity: An assessment of world population in two and three-dimensional configurations.
 
